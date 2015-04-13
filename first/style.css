@@ -1,0 +1,96 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+
+}
+
+.column1 {
+	display: -webkit-flex;
+	-webkit-justify-content: row;
+	-webkit-justify-content: space-between;
+	margin: 10px;
+}
+.guts {
+	margin: 10px;
+	padding: 10px;
+}
+
+
+.one {
+	background: #D0021B;
+	height: 150px;
+	width: 30%;
+}
+
+.two {
+	background: #4A90E2;
+	height: 150px;
+	width: 30%;
+}
+
+.three {
+	background: #4A4A4A;
+	height: 150px;
+	width: 30%;
+}
+
+.four {
+	background: white;
+	height: 40%;
+	width: 100%;
+	border: solid 2px white;
+	clear: both;
+}
+
+.text {
+	padding: 20px;
+	margin:10px, 0px, 0px, 10px;
+	font-family: helvetica;
+
+}
+
+.five {
+    background: #D0021B;
+    height: 300px;
+    width: 40%;
+    margin: ;
+    float: left;
+ }
+
+ .six {
+    background: #4A90E2;
+    height: 300px;
+    width: 60%;
+    margin: ;
+    float: right;
+ }
+
+ .seven {
+ 	background: #4A90E2;
+	height: 150px;
+	width: 100%;
+	float: left;
+	margin: 10px;
+	position: relative;
+	left: -10px;
+ }
+
+ .eight {
+ 	background: #D0021B;
+ 	height: 150px;
+ 	width: 30%;
+ 	float: right;
+ 	position: relative;
+ 	bottom: 160px;
+}
+
+.nine {
+	background: #4A4A4A;
+	height: 150px;
+	width: 150px;
+	float: right;
+	position: relative;
+	bottom: 160px;
+	left: 198px;
+}
